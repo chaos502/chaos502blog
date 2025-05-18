@@ -1,5 +1,5 @@
 ---
-title: "Hello World收拾收拾是啥 是啥"
+title: "第一篇博客"
 date: 2025-05-18
 draft: false
 ---
