@@ -1,10 +1,10 @@
-baseURL = "https://CosmicHourglass.github.io/"
+baseURL = "https://chaos502.github.io/"
 languageCode = "en-us"
 title = "My Blog"
 theme = "PaperMod"
 
 [params]
-  author = "CosmicHourglass"
+  author = "chaos502"
   ShowReadingTime = true
   ShowPostNavLinks = true
   defaultTheme = "auto"

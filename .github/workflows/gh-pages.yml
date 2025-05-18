@@ -28,5 +28,5 @@ jobs:
           github_token: ${{ secrets.TOKEN }}
           publish_dir: ./public
           publish_branch: main
-          EXTERNAL_REPOSITORY: CosmicHourglass/CosmicHourglass.github.io
+          EXTERNAL_REPOSITORY: chaos502/chaos502.github.io
           commit_message: auto deploy
