@@ -20,14 +20,17 @@ theme = "PaperMod"
   home = ["HTML", "RSS", "JSON"]
 
 [params.giscus]
-repo = "chaos502/chaos502blog"
-repo_id = "R_kgDOOsH1cQ"
-category = "General"
-category_id = "DIC_kwDOOsH1cc4CqTS4"
-mapping = "url"
-strict = false
-reactions_enabled = "1"
-emit_metadata = "0"
-input_position = "bottom"
-theme = "preferred_color_scheme"
-lang = "zh-CN"
+  repo = "chaos502/chaos502blog"
+  repoId = "R_kgDOOsH1cQ"
+  category = "General"
+  categoryId = "DIC_kwDOOsH1cc4CqTS4"
+  mapping: "pathname"
+  strict: "0"
+  reactionsEnabled: "1"
+  emitMetadata: "0"
+  inputPosition: "top"
+  lightTheme: "light"
+  darkTheme: "dark"
+  lang: "zh-CN"
+  discussionTitle: "" # 按需填写，评论框上方的标题
+  discussionSubtitle: "" # 按需填写，评论框上方的副标题
