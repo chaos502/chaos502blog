@@ -32,5 +32,5 @@ theme = "PaperMod"
   lightTheme: "light"
   darkTheme: "dark"
   lang: "zh-CN"
-  discussionTitle: "" # 按需填写，评论框上方的标题
-  discussionSubtitle: "" # 按需填写，评论框上方的副标题
+  discussionTitle: ""
+  discussionSubtitle: ""
