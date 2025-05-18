@@ -1,5 +1,5 @@
 ---
-comments: true
+comments: false
 title: "第一篇博客w"
 date: 2025-05-18
 draft: false
