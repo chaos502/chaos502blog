@@ -6,18 +6,17 @@ on:
       - main # 监听 main 分支的推送事件
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-24.04
+
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.139.2"
+          hugo-version: "latest"
           extended: true
 
       - name: Build Web
