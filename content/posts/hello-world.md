@@ -1,4 +1,5 @@
 ---
+comments: true
 title: "第一篇博客"
 date: 2025-05-18
 draft: false

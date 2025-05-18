@@ -18,3 +18,16 @@ theme = "PaperMod"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[params.giscus]
+repo = "chaos502/chaos502blog"
+repo_id = "R_kgDOOsH1cQ"
+category = "General"
+category_id = "DIC_kwDOOsH1cc4CqTS4"
+mapping = "pathname"
+strict = false
+reactions_enabled = "1"
+emit_metadata = "0"
+input_position = "bottom"
+theme = "preferred_color_scheme"
+lang = "zh-CN"
