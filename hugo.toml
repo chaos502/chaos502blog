@@ -10,8 +10,8 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   defaultTheme = "auto"
   comments = true
-  DateFormat: "2006-01-02"  # 日期格式化
-  ShowFullTextinRSS: true   # RSS 输出全文
+  DateFormat = "2006-01-02"  # 日期格式化
+  ShowFullTextinRSS = true   # RSS 输出全文
   description = "你的网站描述"
   keywords = ["关键字1", "关键字2"]
 
