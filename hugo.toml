@@ -6,15 +6,17 @@ theme = "PaperMod"
 [params]
   author = "chaos502"
   showToc = true # 显示目录
-  TocOpen = true # 自动展开目录
+  tocOpen = true # 自动展开目录
   autonumbering = true # 目录自动编号
+  enableEmoji: true
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
   comments = true
-  DateFormat = "YYYY-MM-DD"  # 日期格式化
+  DateFormat = "2022-02-12"  # 日期格式化
   ShowFullTextinRSS = true   # RSS 输出全文
+  enableRobotsTXT = true # 增强搜索引擎
   description = "你的网站描述"
   keywords = ["Blog", "Portfolio", "PaperMod"]
 
@@ -24,14 +26,11 @@ theme = "PaperMod"
   linkedin = "yourLinkedinProfile"
   
 [params.opengraph]
-  image = "path/to/og-image.jpg"
+  image = "/dance.gif"
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -51,3 +50,35 @@ theme = "PaperMod"
   lang = "zh-CN"
   discussionTitle = ""
   discussionSubtitle = ""
+
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    weight = 1
+    taxonomies = { category = "categories", tag = "tags" }
+    
+    [languages.zh.menus]
+      [[languages.zh.menus.main]]
+        name = "首页"
+        pageRef = "/"
+        weight = 4
+      [[languages.zh.menus.main]]
+        name = "归档"
+        pageRef = "archives/"
+        weight = 5
+      [[languages.zh.menus.main]]
+        name = "分类"
+        pageRef = "categories/"
+        weight = 10
+      [[languages.zh.menus.main]]
+        name = "标签"
+        pageRef = "tags/"
+        weight = 10
+      [[languages.zh.menus.main]]
+        name = "搜索"
+        pageRef = "search/"
+        weight = 20
+      [[languages.zh.menus.main]]
+        name = "关于"
+        pageRef = "about/"
+        weight = 21
