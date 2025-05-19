@@ -5,8 +5,9 @@ theme = "PaperMod"
 
 [params]
   author = "chaos502"
-  tocopen = false
-  showtoc: false
+  showToc: true # 显示目录
+  TocOpen: true # 自动展开目录
+  autonumbering: true # 目录自动编号
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons: true
