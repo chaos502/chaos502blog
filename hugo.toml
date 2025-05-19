@@ -5,15 +5,17 @@ theme = "PaperMod"
 
 [params]
   author = "chaos502"
-  toc = true
+  tocopen = false
+  showtoc: false
   ShowReadingTime = true
   ShowPostNavLinks = true
+  ShowCodeCopyButtons: true
   defaultTheme = "auto"
   comments = true
-  DateFormat = "2006-01-02"  # 日期格式化
+  DateFormat = "YYYY-MM-DD"  # 日期格式化
   ShowFullTextinRSS = true   # RSS 输出全文
   description = "你的网站描述"
-  keywords = ["关键字1", "关键字2"]
+  keywords: [Blog, Portfolio, PaperMod]
 
 [params.social]
   twitter = "yourTwitterHandle"
